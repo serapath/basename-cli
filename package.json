@@ -1,6 +1,6 @@
 {
   "name": "basename-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the bare name of a file, without its extension cross platform on the command line",
   "scripts": {
     "test": "node index.js serapath/basename-cli.git # logs: basename-cli"
