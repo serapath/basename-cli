@@ -1,0 +1,31 @@
+{
+  "name": "basename-cli",
+  "version": "1.0.0",
+  "description": "Get the bare name of a file, without its extension cross platform on the command line",
+  "scripts": {
+    "test": "node index.js serapath/basename-cli.git # logs: basename-cli"
+  },
+  "bin": {
+    "basename": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/basename-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "basename",
+    "cross",
+    "cross-platform",
+    "filename"
+  ],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/basename-cli/issues"
+  },
+  "homepage": "https://github.com/serapath/basename-cli#readme",
+  "dependencies": {
+    "basename": "^0.1.2"
+  }
+}
